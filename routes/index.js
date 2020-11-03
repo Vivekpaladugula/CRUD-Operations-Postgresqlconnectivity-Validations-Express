@@ -5,12 +5,7 @@ const app = express();
 const db = require('./queries');
 const port = 1337;
 
-/*app.use(function (err, req, res, next) {
-    if (err instanceof ValidationError) {
-        return res.status(err.statusCode).json(err)
-    }
-    return res.status(500).json(err)
-})*/
+
 
 const todaydate = Date.now();
 const cutoffDate = new Date(todaydate - (1000 * 60 * 60 * 24 * 365 * 18));
