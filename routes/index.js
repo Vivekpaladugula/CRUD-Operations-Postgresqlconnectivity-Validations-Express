@@ -45,7 +45,6 @@ app.post('/adduser', validate(loginValidation, {}, { abortEarly: false }), db.cr
 app.put('/updateuser/:id', db.updateUser);
 app.delete('/deleteuser/:id', db.deleteUser);
 
-//For display errors
 app.use(function (err, req, res, next) {
     if (err instanceof ValidationError) {
         return res.status(err.statusCode).json(err)
