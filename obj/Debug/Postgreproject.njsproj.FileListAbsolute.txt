@@ -1,0 +1,3 @@
+C:\Users\sindu\source\repos\Postgreproject\Postgreproject\obj\Debug\Postgreproject.njsprojAssemblyReference.cache
+C:\Users\sindu\source\repos\Postgreproject\Postgreproject\obj\Debug\Postgreproject.njsproj.CoreCompileInputs.cache
+C:\Users\sindu\source\repos\Postgreproject\Postgreproject\bin\Microsoft.NodejsTools.WebRole.dll
